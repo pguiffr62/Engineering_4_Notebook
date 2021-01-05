@@ -24,3 +24,4 @@ git pull origin master
 git push origin master
 
 ![Screenshot 2021-01-04 at 7 53 54 PM](https://user-images.githubusercontent.com/55250502/103598830-903d4d00-4ed1-11eb-963b-b7c9d294855d.png)
+the correct code for this assignment is "QuadraticSolver.py"
