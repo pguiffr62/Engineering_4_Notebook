@@ -25,3 +25,11 @@ git push origin master
 
 ![Screenshot 2021-01-04 at 7 53 54 PM](https://user-images.githubusercontent.com/55250502/103598830-903d4d00-4ed1-11eb-963b-b7c9d294855d.png)
 the correct code for this assignment is "QuadraticSolver.py"
+
+## Strings and Loops
+This project was more confusing than it had to be I am not very familar with for loops so had to watch a few videos, initially I put the split function inside of my for loop but then had to take it out. I also had my code look like this-
+for i in range(0, len(sentence)):
+which was causing an error because I was asking for a input of an unset amount of numbers, switching it to- 
+for letter sentence: 
+  print(letter) 
+worked a lot better! 
