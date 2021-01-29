@@ -33,3 +33,7 @@ which was causing an error because I was asking for a input of an unset amount o
 for letter sentence: 
   print(letter) 
 worked a lot better! 
+
+## Hang Man
+This assignment took me so long and much trial and error. I found the most difficult part was connecting all of the information I had learned into one peice of code. I had to do really reteach myself how while loops and for loops worked within each other. The most important thing I had to relearn was using an array for the stick figures and word then using the while loop to test if an input letter is in the word and if its not moving to the next figure in the array. 
+
