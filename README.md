@@ -37,3 +37,4 @@ worked a lot better!
 ## Hang Man
 This assignment took me so long and much trial and error. I found the most difficult part was connecting all of the information I had learned into one peice of code. I had to do really reteach myself how while loops and for loops worked within each other. The most important thing I had to relearn was using an array for the stick figures and word then using the while loop to test if an input letter is in the word and if its not moving to the next figure in the array. 
 
+<img width="354" alt="Screen Shot 2021-01-29 at 6 43 38 PM" src="https://user-images.githubusercontent.com/55250502/106338507-f499c500-6261-11eb-9614-a85b6c2ac341.png">
