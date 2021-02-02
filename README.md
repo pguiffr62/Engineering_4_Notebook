@@ -40,4 +40,6 @@ This assignment took me so long and much trial and error. I found the most diffi
 <img width="354" alt="Screen Shot 2021-01-29 at 6 43 38 PM" src="https://user-images.githubusercontent.com/55250502/106338507-f499c500-6261-11eb-9614-a85b6c2ac341.png">
 
 ## GPIO Pins – Bash
-I had to remeber how to wire an LED. Im not super comfortable with bash but this helped.
+I had to remeber how to wire an LED(short to ground with resistor long to pin). Im not super comfortable with bash but this helped. It took me a very long time to understand how to set up bash and make it a .sh file instead of .py and to run it with bash instead of python3. the actual coding with bash was fairly simple but little syntax mistakes like counter=1 instead of counter=$1. I also used gpio -g to be able to use the actual pins like 17 and 18 instead of 0. 
+## GPIO pins -Python
+This was a lot of remebering old assignments with python and led and using 
