@@ -42,4 +42,7 @@ This assignment took me so long and much trial and error. I found the most diffi
 ## GPIO Pins – Bash
 I had to remeber how to wire an LED(short to ground with resistor long to pin). Im not super comfortable with bash but this helped. It took me a very long time to understand how to set up bash and make it a .sh file instead of .py and to run it with bash instead of python3. the actual coding with bash was fairly simple but little syntax mistakes like counter=1 instead of counter=$1. I also used gpio -g to be able to use the actual pins like 17 and 18 instead of 0. 
 ## GPIO pins -Python
-This was a lot of remebering old assignments with python and led and using 
+This was a lot of remebering old assignments with python and led and using GPIO.setup(17, GPIO.OUT, initial=GPIO.LOW) to set up pins and start at off. Then I used a while loop that ran until the counter reached 10 to turn it on sleep and then off while counting. 
+## GPIO pins -SSH 
+I wired the battery to the ground and 5v where my usb pins used to be and hooked up the powerbost with a micro usb. I had been using my chromebook but just switched to using the mac terminal and it is infinately better. I looked up the pin using pi@raspberrypi.local 
+and then hostname -I. I made a simple bash script and it worked perfectly. 
