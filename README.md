@@ -47,5 +47,8 @@ This was a lot of remebering old assignments with python and led and using GPIO.
 I wired the battery to the ground and 5v where my usb pins used to be and hooked up the powerbost with a micro usb. I had been using my chromebook but just switched to using the mac terminal and it is infinately better. I looked up the pin using pi@raspberrypi.local 
 and then hostname -I. I made a simple bash script and it worked perfectly. 
 
-## GPIO ping -i2c 
+## GPIO pins -i2c 
 In this assignment I had to wire up both aaccelerometer and a OLED display and have the X, Y, and Z data displayed on the screen. I uses the two copywritted codes (shapes.py and simpletest.py) as the basis for my code and jammed them together. I took out the shapes and inserted the draw.text lines into the while loop. I replaced hello world with the outputs for accel X, Y, and Z and it worked perfectly. 
+
+## Headless
+I had to modify my code from i2c to display the data graphically for one variable on the OLED screen. I decided to do a line graph to depict the data. I added a if else statement to     and a for loop to 
