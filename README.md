@@ -48,7 +48,10 @@ I wired the battery to the ground and 5v where my usb pins used to be and hooked
 and then hostname -I. I made a simple bash script and it worked perfectly. 
 
 ## GPIO pins -i2c 
-In this assignment I had to wire up both aaccelerometer and a OLED display and have the X, Y, and Z data displayed on the screen. I uses the two copywritted codes (shapes.py and simpletest.py) as the basis for my code and jammed them together. I took out the shapes and inserted the draw.text lines into the while loop. I replaced hello world with the outputs for accel X, Y, and Z and it worked perfectly. 
+In this assignment I had to wire up both aaccelerometer and a OLED display and have the X, Y, and Z data displayed on the screen. I connected the aaccelerometer and a OLED display to the bread board and wired them to ground and 3.3v as well as SDA and SDL which are the 3 and 5 giopins. I uses the two copywritted codes (shapes.py and simpletest.py) as the basis for my code and jammed them together. I took out the shapes and inserted the draw.text lines into the while loop. I replaced hello world with the outputs for accel X, Y, and Z and it worked perfectly. If the conditions for my pi configuration and display screen are true then my while loop I draw three lines of text with X, Y and Z values using the accel values of the accelerometer. 
 
 ## Headless
 I had to modify my code from i2c to display the data graphically for one variable on the OLED screen and have the code run when the pi starts up and be able to collect data remotely. I decided to do a line graph to depict the data. I had to add a few aspects to the code like defining a map range to create a graph for the data. I learned how to store data onto my pi and display it.
+
+## Hello Flask
+In this assignment I had to create a flask python file on my Pi that would allow me to enter my IP adress into a web browser to turn my Pi into an internet connected device. I created a App.py file and copy and pasted the flask code from canvas. I pushed it to github and then enterd my IP into a search browser and the browser retured "hello World." 
