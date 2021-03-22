@@ -55,4 +55,4 @@ I had to modify my code from i2c to display the data graphically for one variabl
 
 ## Hello Flask
 In this assignment I had to create a flask python file on my Pi that would allow me to enter my IP adress into a web browser to turn my Pi into an internet connected device. I created a App.py file and copy and pasted the flask code from canvas. I pushed it to github and then enterd my IP into a search browser and the browser retured "hello World." 
-<img width="400" alt="Screen Shot 2021-03-22 at 12 54 27 PM" src="https://user-images.githubusercontent.com/55250502/112030896-1c463480-8b11-11eb-8212-2420627b7ece.png">
+<img width="600" alt="Screen Shot 2021-03-22 at 12 54 27 PM" src="https://user-images.githubusercontent.com/55250502/112030896-1c463480-8b11-11eb-8212-2420627b7ece.png">
